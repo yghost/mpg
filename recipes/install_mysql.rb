@@ -6,6 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
 mysql_service 'default' do
   port '3306'
   version '5.5'
