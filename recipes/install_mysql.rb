@@ -15,7 +15,7 @@ mysql_service 'default' do
 end
 
 mysql_config 'default' do
-  source 'my.cnf.erb'
+  source 'mysite.cnf.erb'
   notifies :restart, 'mysql_service[default]'
   action :create
 end
